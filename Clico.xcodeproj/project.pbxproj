@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25CFDCCDA3859C35C4C053C6 /* Pods_ClicoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD025091D83FF94863668CE /* Pods_ClicoUITests.framework */; };
+		89EBDEA4ED745AFFDEAD6900 /* Pods_ClicoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE22A820AAE9C819702F7FA3 /* Pods_ClicoTests.framework */; };
+		C3A58F36127235AE0BF11CF6 /* Pods_Clico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97706D2B2CA141B524184C6 /* Pods_Clico.framework */; };
+		D900598A1D8EA4110013223D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90059891D8EA4110013223D /* Colors.swift */; };
+		D9A6A3551D73284A001B92CC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A3541D73284A001B92CC /* Models.swift */; };
+		D9A6A35C1D734749001B92CC /* MPGTextField-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A35B1D734749001B92CC /* MPGTextField-Swift.swift */; };
+		D9A6A35E1D75622F001B92CC /* DealCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A35D1D75622F001B92CC /* DealCellView.swift */; };
+		D9A6A3601D756481001B92CC /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6A35F1D756481001B92CC /* DealsViewController.swift */; };
+		D9BE68F71DA1ADA400FF20C8 /* DealsRangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE68F61DA1ADA400FF20C8 /* DealsRangeTableViewController.swift */; };
+		D9BE68F91DA4CF0E00FF20C8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE68F81DA4CF0E00FF20C8 /* Extensions.swift */; };
+		D9D27DC71D5940110057CD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DC61D5940110057CD5B /* AppDelegate.swift */; };
+		D9D27DC91D5940110057CD5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DC81D5940110057CD5B /* FirstViewController.swift */; };
+		D9D27DCB1D5940110057CD5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DCA1D5940110057CD5B /* SecondViewController.swift */; };
+		D9D27DCE1D5940110057CD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D27DCC1D5940110057CD5B /* Main.storyboard */; };
+		D9D27DD01D5940110057CD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D27DCF1D5940110057CD5B /* Assets.xcassets */; };
+		D9D27DD31D5940110057CD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D27DD11D5940110057CD5B /* LaunchScreen.storyboard */; };
+		D9D27DDE1D5940120057CD5B /* ClicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DDD1D5940120057CD5B /* ClicoTests.swift */; };
+		D9D27DE91D5940120057CD5B /* ClicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DE81D5940120057CD5B /* ClicoUITests.swift */; };
+		D9D27DF71D59413E0057CD5B /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DF61D59413E0057CD5B /* ClientViewController.swift */; };
+		D9D27DF91D5941940057CD5B /* CommercialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D27DF81D5941940057CD5B /* CommercialViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9D27DDA1D5940110057CD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D27DBB1D5940110057CD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D27DC21D5940110057CD5B;
+			remoteInfo = Clico;
+		};
+		D9D27DE51D5940120057CD5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9D27DBB1D5940110057CD5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D27DC21D5940110057CD5B;
+			remoteInfo = Clico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0590DECB78D0439B016BDDE1 /* Pods-ClicoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClicoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClicoUITests/Pods-ClicoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6645E839B3DD19F1056FC2D8 /* Pods-ClicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClicoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClicoTests/Pods-ClicoTests.release.xcconfig"; sourceTree = "<group>"; };
+		766F5E2A7512200C3F22C15B /* Pods-Clico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clico.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clico/Pods-Clico.release.xcconfig"; sourceTree = "<group>"; };
+		8072981B14842E3FE8DE73A0 /* Pods-ClicoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClicoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClicoUITests/Pods-ClicoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A97706D2B2CA141B524184C6 /* Pods_Clico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD025091D83FF94863668CE /* Pods_ClicoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClicoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6982407BC0AC238425ECBB0 /* Pods-ClicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClicoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClicoTests/Pods-ClicoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D90059891D8EA4110013223D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D9A6A3541D73284A001B92CC /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D9A6A35B1D734749001B92CC /* MPGTextField-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MPGTextField-Swift.swift"; sourceTree = "<group>"; };
+		D9A6A35D1D75622F001B92CC /* DealCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealCellView.swift; sourceTree = "<group>"; };
+		D9A6A35F1D756481001B92CC /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		D9BE68F61DA1ADA400FF20C8 /* DealsRangeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsRangeTableViewController.swift; sourceTree = "<group>"; };
+		D9BE68F81DA4CF0E00FF20C8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D9D27DC31D5940110057CD5B /* Clico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D27DC61D5940110057CD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9D27DC81D5940110057CD5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D9D27DCA1D5940110057CD5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D9D27DCD1D5940110057CD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9D27DCF1D5940110057CD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9D27DD21D5940110057CD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9D27DD41D5940110057CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D27DD91D5940110057CD5B /* ClicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D27DDD1D5940120057CD5B /* ClicoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicoTests.swift; sourceTree = "<group>"; };
+		D9D27DDF1D5940120057CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D27DE41D5940120057CD5B /* ClicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D27DE81D5940120057CD5B /* ClicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClicoUITests.swift; sourceTree = "<group>"; };
+		D9D27DEA1D5940120057CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D27DF61D59413E0057CD5B /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		D9D27DF81D5941940057CD5B /* CommercialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommercialViewController.swift; sourceTree = "<group>"; };
+		EE22A820AAE9C819702F7FA3 /* Pods_ClicoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClicoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8B370FF9D496B28444F845 /* Pods-Clico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clico/Pods-Clico.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9D27DC01D5940110057CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A58F36127235AE0BF11CF6 /* Pods_Clico.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D27DD61D5940110057CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EBDEA4ED745AFFDEAD6900 /* Pods_ClicoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D27DE11D5940120057CD5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CFDCCDA3859C35C4C053C6 /* Pods_ClicoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		508775906FFB8843C61C1463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD8B370FF9D496B28444F845 /* Pods-Clico.debug.xcconfig */,
+				766F5E2A7512200C3F22C15B /* Pods-Clico.release.xcconfig */,
+				D6982407BC0AC238425ECBB0 /* Pods-ClicoTests.debug.xcconfig */,
+				6645E839B3DD19F1056FC2D8 /* Pods-ClicoTests.release.xcconfig */,
+				0590DECB78D0439B016BDDE1 /* Pods-ClicoUITests.debug.xcconfig */,
+				8072981B14842E3FE8DE73A0 /* Pods-ClicoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3ABCBF9C6B34A04750DFB03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97706D2B2CA141B524184C6 /* Pods_Clico.framework */,
+				EE22A820AAE9C819702F7FA3 /* Pods_ClicoTests.framework */,
+				AFD025091D83FF94863668CE /* Pods_ClicoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A6A3511D732812001B92CC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D90059891D8EA4110013223D /* Colors.swift */,
+				D9BE68F81DA4CF0E00FF20C8 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D9A6A3521D732812001B92CC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D9A6A3531D732812001B92CC /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6A3541D73284A001B92CC /* Models.swift */,
+				D9A6A35D1D75622F001B92CC /* DealCellView.swift */,
+				D9A6A35F1D756481001B92CC /* DealsViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D9A6A3561D7343D5001B92CC /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6A3571D7343D5001B92CC /* MPGTextField */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		D9A6A3571D7343D5001B92CC /* MPGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6A35B1D734749001B92CC /* MPGTextField-Swift.swift */,
+			);
+			path = MPGTextField;
+			sourceTree = "<group>";
+		};
+		D9D27DBA1D5940110057CD5B = {
+			isa = PBXGroup;
+			children = (
+				D9D27DC51D5940110057CD5B /* Clico */,
+				D9D27DDC1D5940110057CD5B /* ClicoTests */,
+				D9D27DE71D5940120057CD5B /* ClicoUITests */,
+				D9D27DC41D5940110057CD5B /* Products */,
+				508775906FFB8843C61C1463 /* Pods */,
+				A3ABCBF9C6B34A04750DFB03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D27DC41D5940110057CD5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D27DC31D5940110057CD5B /* Clico.app */,
+				D9D27DD91D5940110057CD5B /* ClicoTests.xctest */,
+				D9D27DE41D5940120057CD5B /* ClicoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9D27DC51D5940110057CD5B /* Clico */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6A3561D7343D5001B92CC /* Externals */,
+				D9A6A3511D732812001B92CC /* Common */,
+				D9A6A3521D732812001B92CC /* Profile */,
+				D9A6A3531D732812001B92CC /* Search */,
+				D9D27DC61D5940110057CD5B /* AppDelegate.swift */,
+				D9D27DC81D5940110057CD5B /* FirstViewController.swift */,
+				D9D27DCA1D5940110057CD5B /* SecondViewController.swift */,
+				D9D27DCC1D5940110057CD5B /* Main.storyboard */,
+				D9D27DCF1D5940110057CD5B /* Assets.xcassets */,
+				D9D27DD11D5940110057CD5B /* LaunchScreen.storyboard */,
+				D9D27DD41D5940110057CD5B /* Info.plist */,
+				D9D27DF61D59413E0057CD5B /* ClientViewController.swift */,
+				D9D27DF81D5941940057CD5B /* CommercialViewController.swift */,
+				D9BE68F61DA1ADA400FF20C8 /* DealsRangeTableViewController.swift */,
+			);
+			path = Clico;
+			sourceTree = "<group>";
+		};
+		D9D27DDC1D5940110057CD5B /* ClicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D27DDD1D5940120057CD5B /* ClicoTests.swift */,
+				D9D27DDF1D5940120057CD5B /* Info.plist */,
+			);
+			path = ClicoTests;
+			sourceTree = "<group>";
+		};
+		D9D27DE71D5940120057CD5B /* ClicoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9D27DE81D5940120057CD5B /* ClicoUITests.swift */,
+				D9D27DEA1D5940120057CD5B /* Info.plist */,
+			);
+			path = ClicoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9D27DC21D5940110057CD5B /* Clico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D27DED1D5940120057CD5B /* Build configuration list for PBXNativeTarget "Clico" */;
+			buildPhases = (
+				764967AFD03CEC7B124C1FFA /* [CP] Check Pods Manifest.lock */,
+				D9D27DBF1D5940110057CD5B /* Sources */,
+				D9D27DC01D5940110057CD5B /* Frameworks */,
+				D9D27DC11D5940110057CD5B /* Resources */,
+				AB42A1962ADF1C109F66F920 /* [CP] Embed Pods Frameworks */,
+				6D1F091F7FDE816309DAB0E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clico;
+			productName = Clico;
+			productReference = D9D27DC31D5940110057CD5B /* Clico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9D27DD81D5940110057CD5B /* ClicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D27DF01D5940120057CD5B /* Build configuration list for PBXNativeTarget "ClicoTests" */;
+			buildPhases = (
+				BE26F0F62B806B131DB20365 /* [CP] Check Pods Manifest.lock */,
+				D9D27DD51D5940110057CD5B /* Sources */,
+				D9D27DD61D5940110057CD5B /* Frameworks */,
+				D9D27DD71D5940110057CD5B /* Resources */,
+				09D5EF8C39C5C6D6BA14E54C /* [CP] Embed Pods Frameworks */,
+				EF6AAC7AACB35FE8681B29BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D27DDB1D5940110057CD5B /* PBXTargetDependency */,
+			);
+			name = ClicoTests;
+			productName = ClicoTests;
+			productReference = D9D27DD91D5940110057CD5B /* ClicoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9D27DE31D5940120057CD5B /* ClicoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9D27DF31D5940120057CD5B /* Build configuration list for PBXNativeTarget "ClicoUITests" */;
+			buildPhases = (
+				78F19010872141A98D7F6C18 /* [CP] Check Pods Manifest.lock */,
+				D9D27DE01D5940120057CD5B /* Sources */,
+				D9D27DE11D5940120057CD5B /* Frameworks */,
+				D9D27DE21D5940120057CD5B /* Resources */,
+				C112298E81FD97BE702AE577 /* [CP] Embed Pods Frameworks */,
+				2F46ACA277171588901CCE08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D27DE61D5940120057CD5B /* PBXTargetDependency */,
+			);
+			name = ClicoUITests;
+			productName = ClicoUITests;
+			productReference = D9D27DE41D5940120057CD5B /* ClicoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9D27DBB1D5940110057CD5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HACHFI;
+				TargetAttributes = {
+					D9D27DC21D5940110057CD5B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QB37V3B937;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					D9D27DD81D5940110057CD5B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6PBH59LX8S;
+						LastSwiftMigration = 0820;
+						TestTargetID = D9D27DC21D5940110057CD5B;
+					};
+					D9D27DE31D5940120057CD5B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6PBH59LX8S;
+						LastSwiftMigration = 0820;
+						TestTargetID = D9D27DC21D5940110057CD5B;
+					};
+				};
+			};
+			buildConfigurationList = D9D27DBE1D5940110057CD5B /* Build configuration list for PBXProject "Clico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9D27DBA1D5940110057CD5B;
+			productRefGroup = D9D27DC41D5940110057CD5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D27DC21D5940110057CD5B /* Clico */,
+				D9D27DD81D5940110057CD5B /* ClicoTests */,
+				D9D27DE31D5940120057CD5B /* ClicoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9D27DC11D5940110057CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D27DD31D5940110057CD5B /* LaunchScreen.storyboard in Resources */,
+				D9D27DD01D5940110057CD5B /* Assets.xcassets in Resources */,
+				D9D27DCE1D5940110057CD5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D27DD71D5940110057CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D27DE21D5940120057CD5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09D5EF8C39C5C6D6BA14E54C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClicoTests/Pods-ClicoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F46ACA277171588901CCE08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClicoUITests/Pods-ClicoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D1F091F7FDE816309DAB0E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clico/Pods-Clico-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764967AFD03CEC7B124C1FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78F19010872141A98D7F6C18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB42A1962ADF1C109F66F920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clico/Pods-Clico-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE26F0F62B806B131DB20365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C112298E81FD97BE702AE577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClicoUITests/Pods-ClicoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6AAC7AACB35FE8681B29BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClicoTests/Pods-ClicoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9D27DBF1D5940110057CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D27DF91D5941940057CD5B /* CommercialViewController.swift in Sources */,
+				D900598A1D8EA4110013223D /* Colors.swift in Sources */,
+				D9D27DCB1D5940110057CD5B /* SecondViewController.swift in Sources */,
+				D9A6A3601D756481001B92CC /* DealsViewController.swift in Sources */,
+				D9D27DC71D5940110057CD5B /* AppDelegate.swift in Sources */,
+				D9A6A35C1D734749001B92CC /* MPGTextField-Swift.swift in Sources */,
+				D9BE68F71DA1ADA400FF20C8 /* DealsRangeTableViewController.swift in Sources */,
+				D9A6A3551D73284A001B92CC /* Models.swift in Sources */,
+				D9BE68F91DA4CF0E00FF20C8 /* Extensions.swift in Sources */,
+				D9D27DC91D5940110057CD5B /* FirstViewController.swift in Sources */,
+				D9A6A35E1D75622F001B92CC /* DealCellView.swift in Sources */,
+				D9D27DF71D59413E0057CD5B /* ClientViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D27DD51D5940110057CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D27DDE1D5940120057CD5B /* ClicoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D27DE01D5940120057CD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D27DE91D5940120057CD5B /* ClicoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D27DDB1D5940110057CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D27DC21D5940110057CD5B /* Clico */;
+			targetProxy = D9D27DDA1D5940110057CD5B /* PBXContainerItemProxy */;
+		};
+		D9D27DE61D5940120057CD5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9D27DC21D5940110057CD5B /* Clico */;
+			targetProxy = D9D27DE51D5940120057CD5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9D27DCC1D5940110057CD5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D27DCD1D5940110057CD5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9D27DD11D5940110057CD5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9D27DD21D5940110057CD5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9D27DEB1D5940120057CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D27DEC1D5940120057CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9D27DEE1D5940120057CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8B370FF9D496B28444F845 /* Pods-Clico.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QB37V3B937;
+				INFOPLIST_FILE = Clico/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haramy.clico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D9D27DEF1D5940120057CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766F5E2A7512200C3F22C15B /* Pods-Clico.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QB37V3B937;
+				INFOPLIST_FILE = Clico/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haramy.clico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D9D27DF11D5940120057CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6982407BC0AC238425ECBB0 /* Pods-ClicoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClicoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momohach.ClicoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clico.app/Clico";
+			};
+			name = Debug;
+		};
+		D9D27DF21D5940120057CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6645E839B3DD19F1056FC2D8 /* Pods-ClicoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClicoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momohach.ClicoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clico.app/Clico";
+			};
+			name = Release;
+		};
+		D9D27DF41D5940120057CD5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0590DECB78D0439B016BDDE1 /* Pods-ClicoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ClicoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momohach.ClicoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Clico;
+			};
+			name = Debug;
+		};
+		D9D27DF51D5940120057CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8072981B14842E3FE8DE73A0 /* Pods-ClicoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ClicoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momohach.ClicoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Clico;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9D27DBE1D5940110057CD5B /* Build configuration list for PBXProject "Clico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D27DEB1D5940120057CD5B /* Debug */,
+				D9D27DEC1D5940120057CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D27DED1D5940120057CD5B /* Build configuration list for PBXNativeTarget "Clico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D27DEE1D5940120057CD5B /* Debug */,
+				D9D27DEF1D5940120057CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D27DF01D5940120057CD5B /* Build configuration list for PBXNativeTarget "ClicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D27DF11D5940120057CD5B /* Debug */,
+				D9D27DF21D5940120057CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9D27DF31D5940120057CD5B /* Build configuration list for PBXNativeTarget "ClicoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9D27DF41D5940120057CD5B /* Debug */,
+				D9D27DF51D5940120057CD5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9D27DBB1D5940110057CD5B /* Project object */;
+}

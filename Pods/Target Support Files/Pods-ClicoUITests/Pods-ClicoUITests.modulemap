@@ -1,0 +1,6 @@
+framework module Pods_ClicoUITests {
+  umbrella header "Pods-ClicoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

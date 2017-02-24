@@ -1,0 +1,993 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449E08C161AD45B24D0914408EFE7800 /* NSCalendar+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BABC81A9A0B1C06DF89265094BEFC /* NSCalendar+Timepiece.swift */; };
+		4E324DF58CC810587554F11A9E04DEF1 /* WWCalendarTimeSelector.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A151B2A6EC65100FE5BFC2D5BDF9E1 /* WWCalendarTimeSelector.storyboard */; };
+		4ED22D871363FE6FC279341D1A33BF6B /* Pods-ClicoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0E57314577861DB7E9E11F3301B521 /* Pods-ClicoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		599C2CCF48A49F80181D6BBDC0F0A8A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5E852A71E27C0A714F20B632BA847434 /* NSDateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA27688FCEFE2A68C6061523295F625 /* NSDateComponents+Timepiece.swift */; };
+		606CA99FB92F57F7631C5B609DA66393 /* Pods-ClicoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C3A65B4632C52B936066046A0CF4A8 /* Pods-ClicoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639B2D1963A94C8CACA703F24FBDEF23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		70D431B139878E0B339FAABAE193389A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8B83A4A8693975FBB80951321603DC4E /* Pods-ClicoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57ADBEC530A95A0B8EFD8B221AFC86A /* Pods-ClicoTests-dummy.m */; };
+		8D15CA09AF77FA67E09D45DB38D8E47F /* String+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21EB116D43517D27E48DB64225DC83A /* String+Timepiece.swift */; };
+		91ADDACE9D7D63FAC0A409042DB1EC68 /* Pods-Clico-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F4707095319B60F9DE2C80C04CC541 /* Pods-Clico-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955FC4AC473BD4612D92915919B97E7A /* NSDate+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526445931631A8393E225749B752F562 /* NSDate+Timepiece.swift */; };
+		9AB527F6F9071479732E6677DC1D64ED /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6D1B7D77A78AAA9644399F74F73C0E /* Duration.swift */; };
+		A0859577E1544F99BC916B378901E5C9 /* WWCalendarTimeSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C89F756F78A9B754C39E44DEB4B686 /* WWCalendarTimeSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B18C468F5E515B76576706AB0AEA8A8D /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9711A8C75A0CD820C8BFDCC2670599 /* Int+Timepiece.swift */; };
+		B2C126E21C806E6005768500F2212648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C12D2B083871CD0010B5D605C356623E /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C22B8CD033531311CDFD91B0C6FB33D /* WWCalendarTimeSelectorStoryboardBundle.bundle */; };
+		C7D68F8723B102C5E6130EDD1DCE1BD5 /* WWCalendarTimeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA58EBD7F9E690DB08245E32990E250 /* WWCalendarTimeSelector.swift */; };
+		D37F8A6CE3D02A817749838FBA724713 /* Pods-ClicoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 300ABC8BEE291DE0908D42750B36C88D /* Pods-ClicoUITests-dummy.m */; };
+		F82DBB331D1A565469A0371E33350DD5 /* Pods-Clico-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C69CD4551343CA9C9881DF39F77B66 /* Pods-Clico-dummy.m */; };
+		F8D3B7B2958FA1B50F03A6CB5A58F543 /* WWCalendarTimeSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9546BED8D7C3A60BE6E60A367CB1A1 /* WWCalendarTimeSelector-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D349E745DD4A81094319DEC1F85246A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33CE72071EE4B136CB5DC7EF998C03A;
+			remoteInfo = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+		};
+		B2208089FF98F65F6E956640719D18E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF35D4BD92F3E6BDEC03B74C6B8EBC5;
+			remoteInfo = WWCalendarTimeSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0265CAA9C9D485318ED45381FD613062 /* Pods-ClicoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ClicoTests.modulemap"; sourceTree = "<group>"; };
+		0FC7898205AD6839812D233B6A0D78D7 /* WWCalendarTimeSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WWCalendarTimeSelector.modulemap; sourceTree = "<group>"; };
+		13C69CD4551343CA9C9881DF39F77B66 /* Pods-Clico-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Clico-dummy.m"; sourceTree = "<group>"; };
+		23C3A65B4632C52B936066046A0CF4A8 /* Pods-ClicoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClicoTests-umbrella.h"; sourceTree = "<group>"; };
+		2B808AF5660EBBE5F309FD947F6738BF /* Pods-ClicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClicoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C22B8CD033531311CDFD91B0C6FB33D /* WWCalendarTimeSelectorStoryboardBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WWCalendarTimeSelectorStoryboardBundle.bundle; path = WWCalendarTimeSelectorStoryboardBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9546BED8D7C3A60BE6E60A367CB1A1 /* WWCalendarTimeSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWCalendarTimeSelector-dummy.m"; sourceTree = "<group>"; };
+		300ABC8BEE291DE0908D42750B36C88D /* Pods-ClicoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClicoUITests-dummy.m"; sourceTree = "<group>"; };
+		39418E7EEBDA212A00C0C56674B59D2F /* Pods-Clico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Clico.release.xcconfig"; sourceTree = "<group>"; };
+		3D9711A8C75A0CD820C8BFDCC2670599 /* Int+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Timepiece.swift"; path = "Sources/Int+Timepiece.swift"; sourceTree = "<group>"; };
+		41C016E40303376124104C537FFC092D /* WWCalendarTimeSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWCalendarTimeSelector.xcconfig; sourceTree = "<group>"; };
+		4392096B4727797389F967B2F3275799 /* Pods-ClicoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClicoTests-resources.sh"; sourceTree = "<group>"; };
+		44846F97EC8DA6CBB92A3AED9483A128 /* Pods-ClicoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClicoTests-frameworks.sh"; sourceTree = "<group>"; };
+		526445931631A8393E225749B752F562 /* NSDate+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Timepiece.swift"; path = "Sources/NSDate+Timepiece.swift"; sourceTree = "<group>"; };
+		5A39AFA87F068062F7D557CA04A368CC /* Pods-ClicoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClicoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6D11E87F4F570F14A8E27172DF766066 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BF03E62F23794D0C3515AD1748E143 /* Pods_ClicoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClicoUITests.framework; path = "Pods-ClicoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745FC3B9CC38C2690CD1762F99332F3B /* Pods-ClicoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClicoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7720ADCEECE964D7E7CD486E99684E75 /* Pods-ClicoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClicoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B467F502CA693540ED7FC9CEA10C94D /* Pods_ClicoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ClicoTests.framework; path = "Pods-ClicoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F4707095319B60F9DE2C80C04CC541 /* Pods-Clico-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Clico-umbrella.h"; sourceTree = "<group>"; };
+		8C80080666017D0A8C6367CD69F88B0B /* Pods-ClicoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ClicoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CD2D7B598B403CDF0D03158C2CE634F /* Pods-Clico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Clico.debug.xcconfig"; sourceTree = "<group>"; };
+		8E85837BA1BB76A46241479A2E4E3C42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A7E2D4D604CF332E817BD453CFD13E6 /* Pods-ClicoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClicoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CE38A11643EAC68186A1F307E7286E4 /* Pods-ClicoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClicoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE2A8AE77344AAAC66AC5D16C01998B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46FEAF9F97A3D68D20FE36C0DD003FC /* Pods-Clico-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Clico-resources.sh"; sourceTree = "<group>"; };
+		A79BABC81A9A0B1C06DF89265094BEFC /* NSCalendar+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSCalendar+Timepiece.swift"; path = "Sources/NSCalendar+Timepiece.swift"; sourceTree = "<group>"; };
+		B0C89F756F78A9B754C39E44DEB4B686 /* WWCalendarTimeSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-umbrella.h"; sourceTree = "<group>"; };
+		B7A151B2A6EC65100FE5BFC2D5BDF9E1 /* WWCalendarTimeSelector.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; name = WWCalendarTimeSelector.storyboard; path = Sources/WWCalendarTimeSelector.storyboard; sourceTree = "<group>"; };
+		B97DEE6A12A007D31761EB805BE8FA21 /* Pods-ClicoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ClicoUITests-resources.sh"; sourceTree = "<group>"; };
+		B9E45F4B909F32D9D7DA618B015FAAF7 /* Pods-Clico.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Clico.modulemap"; sourceTree = "<group>"; };
+		BA6D1B7D77A78AAA9644399F74F73C0E /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = Sources/Duration.swift; sourceTree = "<group>"; };
+		BCA939B538F9F76C7F5CBE77A8459D2F /* Pods-ClicoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ClicoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDA27688FCEFE2A68C6061523295F625 /* NSDateComponents+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDateComponents+Timepiece.swift"; path = "Sources/NSDateComponents+Timepiece.swift"; sourceTree = "<group>"; };
+		C69531BD8DD7B3EF559E9FCED054B4D1 /* Pods-Clico-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Clico-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C72DC1B4B48C9565395CA0748391FF58 /* WWCalendarTimeSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWCalendarTimeSelector-prefix.pch"; sourceTree = "<group>"; };
+		C80B649915B23226253E19BA7B24117C /* Pods-Clico-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Clico-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCC3C4CF6172B18C153395C816DBC844 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D113C476717E536E505ADCD3B63E6EE8 /* Pods-ClicoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ClicoUITests.modulemap"; sourceTree = "<group>"; };
+		DC0E57314577861DB7E9E11F3301B521 /* Pods-ClicoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ClicoUITests-umbrella.h"; sourceTree = "<group>"; };
+		E07DD662C82CE6ADE1B564052D6AD0A8 /* WWCalendarTimeSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WWCalendarTimeSelector.framework; path = WWCalendarTimeSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21EB116D43517D27E48DB64225DC83A /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/String+Timepiece.swift"; sourceTree = "<group>"; };
+		E30379E5C9E393D63B501E01739DE665 /* Pods_Clico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Clico.framework; path = "Pods-Clico.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E462C2698274FC142CF0B969A474505D /* Pods-Clico-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Clico-frameworks.sh"; sourceTree = "<group>"; };
+		E57ADBEC530A95A0B8EFD8B221AFC86A /* Pods-ClicoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ClicoTests-dummy.m"; sourceTree = "<group>"; };
+		EBF27693693BD810EE06C9DDFC464E1C /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist"; sourceTree = "<group>"; };
+		F37154C9B25A73061C287CF0BBECC8BF /* Pods-ClicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ClicoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA58EBD7F9E690DB08245E32990E250 /* WWCalendarTimeSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WWCalendarTimeSelector.swift; path = Sources/WWCalendarTimeSelector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B78B40656D012127F0507175A4AD6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C126E21C806E6005768500F2212648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E502CAAE83132A4E749E2C5A6ECE7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B2D1963A94C8CACA703F24FBDEF23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4358B7E46040D94EDF6246AC0C9449D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5EE303C6240E9499CE9FE5DF41AAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599C2CCF48A49F80181D6BBDC0F0A8A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D636046D5B9DC2452404A8F9BCDF3EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D431B139878E0B339FAABAE193389A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D9F3445C2FC0A80E756C9C99EF7B43 /* Pods-ClicoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D11E87F4F570F14A8E27172DF766066 /* Info.plist */,
+				D113C476717E536E505ADCD3B63E6EE8 /* Pods-ClicoUITests.modulemap */,
+				7720ADCEECE964D7E7CD486E99684E75 /* Pods-ClicoUITests-acknowledgements.markdown */,
+				745FC3B9CC38C2690CD1762F99332F3B /* Pods-ClicoUITests-acknowledgements.plist */,
+				300ABC8BEE291DE0908D42750B36C88D /* Pods-ClicoUITests-dummy.m */,
+				5A39AFA87F068062F7D557CA04A368CC /* Pods-ClicoUITests-frameworks.sh */,
+				B97DEE6A12A007D31761EB805BE8FA21 /* Pods-ClicoUITests-resources.sh */,
+				DC0E57314577861DB7E9E11F3301B521 /* Pods-ClicoUITests-umbrella.h */,
+				9A7E2D4D604CF332E817BD453CFD13E6 /* Pods-ClicoUITests.debug.xcconfig */,
+				9CE38A11643EAC68186A1F307E7286E4 /* Pods-ClicoUITests.release.xcconfig */,
+			);
+			name = "Pods-ClicoUITests";
+			path = "Target Support Files/Pods-ClicoUITests";
+			sourceTree = "<group>";
+		};
+		1F74676FE79818355BAFDDD508B2C5BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C9FB657FED00FFB3E7CA2F6DA2036 /* Pods-Clico */,
+				4F444F64C63ADB110C2ED2E79FC38057 /* Pods-ClicoTests */,
+				17D9F3445C2FC0A80E756C9C99EF7B43 /* Pods-ClicoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2709C8C996201DB81F1A48125FCCD21D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7A151B2A6EC65100FE5BFC2D5BDF9E1 /* WWCalendarTimeSelector.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4F444F64C63ADB110C2ED2E79FC38057 /* Pods-ClicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FE2A8AE77344AAAC66AC5D16C01998B /* Info.plist */,
+				0265CAA9C9D485318ED45381FD613062 /* Pods-ClicoTests.modulemap */,
+				BCA939B538F9F76C7F5CBE77A8459D2F /* Pods-ClicoTests-acknowledgements.markdown */,
+				8C80080666017D0A8C6367CD69F88B0B /* Pods-ClicoTests-acknowledgements.plist */,
+				E57ADBEC530A95A0B8EFD8B221AFC86A /* Pods-ClicoTests-dummy.m */,
+				44846F97EC8DA6CBB92A3AED9483A128 /* Pods-ClicoTests-frameworks.sh */,
+				4392096B4727797389F967B2F3275799 /* Pods-ClicoTests-resources.sh */,
+				23C3A65B4632C52B936066046A0CF4A8 /* Pods-ClicoTests-umbrella.h */,
+				F37154C9B25A73061C287CF0BBECC8BF /* Pods-ClicoTests.debug.xcconfig */,
+				2B808AF5660EBBE5F309FD947F6738BF /* Pods-ClicoTests.release.xcconfig */,
+			);
+			name = "Pods-ClicoTests";
+			path = "Target Support Files/Pods-ClicoTests";
+			sourceTree = "<group>";
+		};
+		64B4628380C3DB5D240A27EBAF76B1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F1D18695615013C5F454D4AA1F06CE6 /* WWCalendarTimeSelector */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		67BB0D818B767F4F58D60FF20A1C0A43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC3C4CF6172B18C153395C816DBC844 /* Info.plist */,
+				EBF27693693BD810EE06C9DDFC464E1C /* ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist */,
+				0FC7898205AD6839812D233B6A0D78D7 /* WWCalendarTimeSelector.modulemap */,
+				41C016E40303376124104C537FFC092D /* WWCalendarTimeSelector.xcconfig */,
+				2F9546BED8D7C3A60BE6E60A367CB1A1 /* WWCalendarTimeSelector-dummy.m */,
+				C72DC1B4B48C9565395CA0748391FF58 /* WWCalendarTimeSelector-prefix.pch */,
+				B0C89F756F78A9B754C39E44DEB4B686 /* WWCalendarTimeSelector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WWCalendarTimeSelector";
+			sourceTree = "<group>";
+		};
+		6C9C9FB657FED00FFB3E7CA2F6DA2036 /* Pods-Clico */ = {
+			isa = PBXGroup;
+			children = (
+				8E85837BA1BB76A46241479A2E4E3C42 /* Info.plist */,
+				B9E45F4B909F32D9D7DA618B015FAAF7 /* Pods-Clico.modulemap */,
+				C69531BD8DD7B3EF559E9FCED054B4D1 /* Pods-Clico-acknowledgements.markdown */,
+				C80B649915B23226253E19BA7B24117C /* Pods-Clico-acknowledgements.plist */,
+				13C69CD4551343CA9C9881DF39F77B66 /* Pods-Clico-dummy.m */,
+				E462C2698274FC142CF0B969A474505D /* Pods-Clico-frameworks.sh */,
+				A46FEAF9F97A3D68D20FE36C0DD003FC /* Pods-Clico-resources.sh */,
+				81F4707095319B60F9DE2C80C04CC541 /* Pods-Clico-umbrella.h */,
+				8CD2D7B598B403CDF0D03158C2CE634F /* Pods-Clico.debug.xcconfig */,
+				39418E7EEBDA212A00C0C56674B59D2F /* Pods-Clico.release.xcconfig */,
+			);
+			name = "Pods-Clico";
+			path = "Target Support Files/Pods-Clico";
+			sourceTree = "<group>";
+		};
+		6F1D18695615013C5F454D4AA1F06CE6 /* WWCalendarTimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D1B7D77A78AAA9644399F74F73C0E /* Duration.swift */,
+				3D9711A8C75A0CD820C8BFDCC2670599 /* Int+Timepiece.swift */,
+				A79BABC81A9A0B1C06DF89265094BEFC /* NSCalendar+Timepiece.swift */,
+				526445931631A8393E225749B752F562 /* NSDate+Timepiece.swift */,
+				BDA27688FCEFE2A68C6061523295F625 /* NSDateComponents+Timepiece.swift */,
+				E21EB116D43517D27E48DB64225DC83A /* String+Timepiece.swift */,
+				FFA58EBD7F9E690DB08245E32990E250 /* WWCalendarTimeSelector.swift */,
+				2709C8C996201DB81F1A48125FCCD21D /* Resources */,
+				67BB0D818B767F4F58D60FF20A1C0A43 /* Support Files */,
+			);
+			name = WWCalendarTimeSelector;
+			path = WWCalendarTimeSelector;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				64B4628380C3DB5D240A27EBAF76B1CC /* Pods */,
+				FB6D3252E5CD78254884743A13F6115C /* Products */,
+				1F74676FE79818355BAFDDD508B2C5BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB6D3252E5CD78254884743A13F6115C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E30379E5C9E393D63B501E01739DE665 /* Pods_Clico.framework */,
+				7B467F502CA693540ED7FC9CEA10C94D /* Pods_ClicoTests.framework */,
+				71BF03E62F23794D0C3515AD1748E143 /* Pods_ClicoUITests.framework */,
+				E07DD662C82CE6ADE1B564052D6AD0A8 /* WWCalendarTimeSelector.framework */,
+				2C22B8CD033531311CDFD91B0C6FB33D /* WWCalendarTimeSelectorStoryboardBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CE2FB1CCAA96EBF6978D3DF93B1BED1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED22D871363FE6FC279341D1A33BF6B /* Pods-ClicoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BFD768294E84B8E6B52A7AA8EA8DD6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ADDACE9D7D63FAC0A409042DB1EC68 /* Pods-Clico-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638394D25651B8B155294374BD2151AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606CA99FB92F57F7631C5B609DA66393 /* Pods-ClicoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C1B2281983CFB1BAD0A431E25B3E4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0859577E1544F99BC916B378901E5C9 /* WWCalendarTimeSelector-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C0B741B41A3717CE5654D121CA1A5AB /* Pods-ClicoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4036FAB54ECF5312C32A7026446FD7 /* Build configuration list for PBXNativeTarget "Pods-ClicoUITests" */;
+			buildPhases = (
+				434849F3CE18706D1B4402FB3023B3ED /* Sources */,
+				1B78B40656D012127F0507175A4AD6E6 /* Frameworks */,
+				4CE2FB1CCAA96EBF6978D3DF93B1BED1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ClicoUITests";
+			productName = "Pods-ClicoUITests";
+			productReference = 71BF03E62F23794D0C3515AD1748E143 /* Pods_ClicoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65FCFE5EC8AD86C3D3B6DCF30F7CE12B /* Pods-ClicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A413933B4948C9C55B4DAD85FCDD48 /* Build configuration list for PBXNativeTarget "Pods-ClicoTests" */;
+			buildPhases = (
+				3711066D7E2BC7DA2EB10E402B855305 /* Sources */,
+				2E502CAAE83132A4E749E2C5A6ECE7B2 /* Frameworks */,
+				638394D25651B8B155294374BD2151AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ClicoTests";
+			productName = "Pods-ClicoTests";
+			productReference = 7B467F502CA693540ED7FC9CEA10C94D /* Pods_ClicoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C33CE72071EE4B136CB5DC7EF998C03A /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCDB9C784577DF9FC1051440E67FAD2 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */;
+			buildPhases = (
+				36DFF2918D635DD4000B17DF29930C6C /* Sources */,
+				4358B7E46040D94EDF6246AC0C9449D2 /* Frameworks */,
+				BD25F0CF1EA4AC4B4388202777794974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productName = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			productReference = 2C22B8CD033531311CDFD91B0C6FB33D /* WWCalendarTimeSelectorStoryboardBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E396C9CE78706673EF4D7000EB589491 /* Pods-Clico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28862DF53FFAFB99F6209E3732B3AE24 /* Build configuration list for PBXNativeTarget "Pods-Clico" */;
+			buildPhases = (
+				3488C2B784AA76B4C4FCA1C155172780 /* Sources */,
+				BA5EE303C6240E9499CE9FE5DF41AAAE /* Frameworks */,
+				5BFD768294E84B8E6B52A7AA8EA8DD6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5297E938C87FBFE7FFD6B0C9DBCAF5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Clico";
+			productName = "Pods-Clico";
+			productReference = E30379E5C9E393D63B501E01739DE665 /* Pods_Clico.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDF35D4BD92F3E6BDEC03B74C6B8EBC5 /* WWCalendarTimeSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C30B15E41755E310739A8275C0084C3 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */;
+			buildPhases = (
+				DFB483F708FF2CB9A365B140C60863AB /* Sources */,
+				D636046D5B9DC2452404A8F9BCDF3EFD /* Frameworks */,
+				05ED4C75B9C20890B14004D7B78BCDB9 /* Resources */,
+				F3C1B2281983CFB1BAD0A431E25B3E4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D2F499924A2BDFF40E0055F74B18F9 /* PBXTargetDependency */,
+			);
+			name = WWCalendarTimeSelector;
+			productName = WWCalendarTimeSelector;
+			productReference = E07DD662C82CE6ADE1B564052D6AD0A8 /* WWCalendarTimeSelector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB6D3252E5CD78254884743A13F6115C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E396C9CE78706673EF4D7000EB589491 /* Pods-Clico */,
+				65FCFE5EC8AD86C3D3B6DCF30F7CE12B /* Pods-ClicoTests */,
+				3C0B741B41A3717CE5654D121CA1A5AB /* Pods-ClicoUITests */,
+				EDF35D4BD92F3E6BDEC03B74C6B8EBC5 /* WWCalendarTimeSelector */,
+				C33CE72071EE4B136CB5DC7EF998C03A /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05ED4C75B9C20890B14004D7B78BCDB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12D2B083871CD0010B5D605C356623E /* WWCalendarTimeSelectorStoryboardBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD25F0CF1EA4AC4B4388202777794974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E324DF58CC810587554F11A9E04DEF1 /* WWCalendarTimeSelector.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3488C2B784AA76B4C4FCA1C155172780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82DBB331D1A565469A0371E33350DD5 /* Pods-Clico-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DFF2918D635DD4000B17DF29930C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711066D7E2BC7DA2EB10E402B855305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B83A4A8693975FBB80951321603DC4E /* Pods-ClicoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434849F3CE18706D1B4402FB3023B3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37F8A6CE3D02A817749838FBA724713 /* Pods-ClicoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB483F708FF2CB9A365B140C60863AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB527F6F9071479732E6677DC1D64ED /* Duration.swift in Sources */,
+				B18C468F5E515B76576706AB0AEA8A8D /* Int+Timepiece.swift in Sources */,
+				449E08C161AD45B24D0914408EFE7800 /* NSCalendar+Timepiece.swift in Sources */,
+				955FC4AC473BD4612D92915919B97E7A /* NSDate+Timepiece.swift in Sources */,
+				5E852A71E27C0A714F20B632BA847434 /* NSDateComponents+Timepiece.swift in Sources */,
+				8D15CA09AF77FA67E09D45DB38D8E47F /* String+Timepiece.swift in Sources */,
+				F8D3B7B2958FA1B50F03A6CB5A58F543 /* WWCalendarTimeSelector-dummy.m in Sources */,
+				C7D68F8723B102C5E6130EDD1DCE1BD5 /* WWCalendarTimeSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5297E938C87FBFE7FFD6B0C9DBCAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWCalendarTimeSelector;
+			target = EDF35D4BD92F3E6BDEC03B74C6B8EBC5 /* WWCalendarTimeSelector */;
+			targetProxy = B2208089FF98F65F6E956640719D18E2 /* PBXContainerItemProxy */;
+		};
+		F0D2F499924A2BDFF40E0055F74B18F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle";
+			target = C33CE72071EE4B136CB5DC7EF998C03A /* WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle */;
+			targetProxy = 7D349E745DD4A81094319DEC1F85246A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AE58EBC846B76BED01110DD03DF1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7E2D4D604CF332E817BD453CFD13E6 /* Pods-ClicoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClicoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClicoUITests/Pods-ClicoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClicoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0895374474370335767B91FC66610FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C016E40303376124104C537FFC092D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08E7FE9C1E5396BCB5871633A7247D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37154C9B25A73061C287CF0BBECC8BF /* Pods-ClicoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClicoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClicoTests/Pods-ClicoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClicoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1A4A96D0AE6C816D77C17A8475097F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B808AF5660EBBE5F309FD947F6738BF /* Pods-ClicoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClicoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClicoTests/Pods-ClicoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClicoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		355C7DCB79EC87D7098F4FFEFCC10987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE38A11643EAC68186A1F307E7286E4 /* Pods-ClicoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ClicoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ClicoUITests/Pods-ClicoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ClicoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		594545B9CBAA528292A5586E06A20E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C016E40303376124104C537FFC092D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		63308860EED4CCA7AA44C21ACFEA9C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C016E40303376124104C537FFC092D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WWCalendarTimeSelector";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/ResourceBundle-WWCalendarTimeSelectorStoryboardBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WWCalendarTimeSelectorStoryboardBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF2C35A54878CEB5C340117C1875D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39418E7EEBDA212A00C0C56674B59D2F /* Pods-Clico.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Clico/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Clico/Pods-Clico.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Clico;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB18351F6C49EA86F745C18F8E70097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C016E40303376124104C537FFC092D /* WWCalendarTimeSelector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WWCalendarTimeSelector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WWCalendarTimeSelector/WWCalendarTimeSelector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WWCalendarTimeSelector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1A7046852BC3BCB21D12D0A8EBB71D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD2D7B598B403CDF0D03158C2CE634F /* Pods-Clico.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Clico/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Clico/Pods-Clico.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Clico;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28862DF53FFAFB99F6209E3732B3AE24 /* Build configuration list for PBXNativeTarget "Pods-Clico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A7046852BC3BCB21D12D0A8EBB71D2 /* Debug */,
+				BCF2C35A54878CEB5C340117C1875D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C30B15E41755E310739A8275C0084C3 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0895374474370335767B91FC66610FB2 /* Debug */,
+				DB18351F6C49EA86F745C18F8E70097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A413933B4948C9C55B4DAD85FCDD48 /* Build configuration list for PBXNativeTarget "Pods-ClicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E7FE9C1E5396BCB5871633A7247D77 /* Debug */,
+				1A4A96D0AE6C816D77C17A8475097F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4036FAB54ECF5312C32A7026446FD7 /* Build configuration list for PBXNativeTarget "Pods-ClicoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AE58EBC846B76BED01110DD03DF1CE /* Debug */,
+				355C7DCB79EC87D7098F4FFEFCC10987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCDB9C784577DF9FC1051440E67FAD2 /* Build configuration list for PBXNativeTarget "WWCalendarTimeSelector-WWCalendarTimeSelectorStoryboardBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63308860EED4CCA7AA44C21ACFEA9C64 /* Debug */,
+				594545B9CBAA528292A5586E06A20E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

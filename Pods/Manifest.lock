@@ -1,0 +1,12 @@
+PODS:
+  - WWCalendarTimeSelector (1.3.13)
+
+DEPENDENCIES:
+  - WWCalendarTimeSelector
+
+SPEC CHECKSUMS:
+  WWCalendarTimeSelector: 334f8b4ff16367d75fb9f21073203641fbd3d749
+
+PODFILE CHECKSUM: 608fbd78e7d736f19523038e8e812e6cd9adf8ac
+
+COCOAPODS: 1.2.0
